@@ -1,0 +1,89 @@
+body{
+    display: grid;
+    place-content: center;
+    background-color: rgb(245, 11, 191);
+    font-size: 2.5vh;
+}
+
+header{
+    display: grid;
+    place-content: center;
+}
+
+#opciones-productos{
+    display: grid;
+    place-content: center;
+}
+
+#contenedor-productos{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    background-color:rgb(249, 6, 249);
+}
+
+.producto{
+    display: grid;
+    place-content: center;
+    background-color: violet;
+    border: 2px solid rgb(9, 9, 9);
+    margin: 2px;
+    padding: 3px;
+}
+
+.producto select{
+    font-size: 2.5vh;
+    margin: 3px;
+}
+
+.producto-img{
+    display: grid;
+    place-content: center;
+    margin: 4px;
+}
+.producto-img img{
+    width: 150px;
+}
+
+
+main{
+    display: grid;
+    place-content: center;
+}
+
+
+#info-opc-prod{
+    display: grid;
+    place-content: center;
+}
+
+#info-opc-prod p{
+    text-align: center;
+    background-color: rgb(250, 9, 246);
+    width: 50vw;
+}
+
+
+.conf-color-1-a{
+    background-color: rgb(13, 214, 218);
+}
+.conf-color-1-b{
+    background-color: rgb(237, 117, 193);
+}
+
+.conf-color-2-a{
+    background-color: rgb(100, 248, 132);
+}
+.conf-color-2-b{
+    background-color: white;
+}
+
+.conf-color-3-a{
+    background-color: blue;
+}
+.conf-color-3-b{
+    background-color: gray;
+}
+#prueba{
+    background-color: rgb(234, 134, 177)!important ;
+}
